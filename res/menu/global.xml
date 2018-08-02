@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+    android:title="Sparknext"
+    android:orderInCategory="79"
+    android:icon="@drawable/sparknext_icon"
+    android:showAsAction="ifRoom|withText" />
+   
+   <item
+    android:title="Hepta"
+    android:orderInCategory="75"
+    android:icon="@drawable/hepta_icon"
+    android:showAsAction="ifRoom|withText" />
+   
+    
+
+</menu>

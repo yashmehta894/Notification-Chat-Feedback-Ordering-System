@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">""</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="caption_for_refer">Want us to spread our awesomeness to your friends too?Jot down the details below and we"ll get straight to business.Who knew referring a friend could be as easy as pie!?</string>
+
+    <string-array name="list_of_features">
+        <item>Culture</item>
+        <item>Food</item>
+        <item>Calendar</item>
+        <item>Rules</item>
+        <item>Manifesto</item>
+        <item>Team</item>
+        <item>Suggestion</item>
+        <item>Refer</item>
+    </string-array>
+
+    <string name="title_activity_login_">Login_Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_culture_list">CultureListActivity</string>
+
+</resources>

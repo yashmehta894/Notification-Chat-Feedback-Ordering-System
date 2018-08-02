@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <ImageView
+            android:id="@+id/team_custom_image_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:id="@+id/team_member_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/team_member_desig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boss"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/team_memberemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mehuljain53@gmail.com"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/team_memberphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8767474889"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/team_memberbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
